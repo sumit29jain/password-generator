@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 550px;
+  height: 550px;
+  background: #1f2937;
+  margin: 50px auto;
+  position: relative;
+}
+
+.title {
+  width: 354px;
+  height: 80px;
+  position: absolute;
+  top: 115px;
+  left: 52px;
+  color: var(--white, #fff);
+  font-family: Karla;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px; /* 100% */
+  letter-spacing: -1px;
+}
+
+.title-2 {
+  color: #4adf86;
+  font-family: Karla;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  width: 372px;
+  color: var(--medium-grey, #d5d4d8);
+  position: absolute;
+  top: 205px;
+  left: 52px;
+  /* text-xl/leading-7/font-normal */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.btn {
+  position: absolute;
+  top: 284px;
+  left: 52px;
+  display: inline-flex;
+  padding: 9px 17px 9px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 6px;
+  background: #10b981;
+  border: none;
+  cursor: pointer;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.btn-text {
+  color: var(--white, #fff);
+
+  /* text-base/leading-6/font-medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.divider {
+  position: absolute;
+  top: 361px;
+  left: 52px;
+  width: 446px;
+  border: 1px solid #2f3e53;
+}
+
+.rectangle-1 {
+  width: 211px;
+  height: 39px;
+  position: absolute;
+  top: 396px;
+  left: 52px;
+  border-radius: 6px;
+  background: #273549;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle-2 {
+  width: 211px;
+  height: 39px;
+  position: absolute;
+  top: 396px;
+  right: 52px;
+  border-radius: 6px;
+  background: #273549;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.psw {
+  width: 180px;
+  color: #55f991;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
+}
